@@ -28,6 +28,10 @@ ParaView visualization (warp and stress fields)
 
 Clean workaround for vector displacement using scalar stacking
 
+Below is a visualization of von Mises stress in the femur under loading:
+
+![Von Mises Stress Render](egss.png)
+
 ## Result
 
 Open results in ParaView and apply:
