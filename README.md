@@ -30,7 +30,7 @@ Clean workaround for vector displacement using scalar stacking
 
 Below is a visualization of von Mises stress in the femur under loading:
 
-![Von Mises Stress Render](egss.png)
+![Von Mises Stress Render](screenshots/egss.png)
 
 ## Result
 
