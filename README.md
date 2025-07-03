@@ -8,3 +8,21 @@ This project simulates the stress distribution in a human femur using a scalar f
 
 Make sure you have [FEniCSx](https://docs.fenicsproject.org/dolfinx/main/python/) installed (via Docker or conda). Place your mesh at:
 
+/home/fenics/shared/femur.msh
+
+
+## Usage
+
+```bash
+python vonmises_fea.py
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
