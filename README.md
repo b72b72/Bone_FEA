@@ -15,6 +15,34 @@ Make sure you have [FEniCSx](https://docs.fenicsproject.org/dolfinx/main/python/
 
 ```bash
 python vonmises_fea.py
+```
+## Features
+
+Scalar FEA using FEniCSx
+
+Custom region-based force loading (radial + vertical control)
+
+NumPy-based von Mises stress computation
+
+ParaView visualization (warp and stress fields)
+
+Clean workaround for vector displacement using scalar stacking
+
+## Result
+
+Open results in ParaView and apply:
+
+WarpByVector using vec
+
+Color by col (von Mises stress)
+
+## Limitations
+
+Scalar approximation does not capture realistic deformation physics
+
+Downward force results in upward visual displacement due to Poisson PDE behavior
+
+No traction boundary conditions (only internal force distribution)
 
 ## Contributing
 
